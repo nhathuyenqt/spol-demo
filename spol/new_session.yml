@@ -1,6 +1,6 @@
-name: "svc-ead1a54e"
+name: "svc-77ce653f"
 version: "0.3"
-predecessor: "4f486c8b21e377b534542920c9a6279fd54a2370a378584180134568665727f5"
+predecessor: "650ef020acb08ae615d3725df650afe2ce5a7fc023255bcca17e4f637a57e3f7"
 secrets:
   - name: nonce
-    value: "e467f8b5d158a54347d58113bd3451f0"
+    value: "1b912fe6d212e67623df6fea1fd84dda"
