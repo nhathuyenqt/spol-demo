@@ -1,6 +1,6 @@
-name: "svc-5606297b"
+name: "svc-ed4369c5"
 version: "0.3"
-predecessor: "c963150154e47872f95799679110066c46a7898ba4d2576a9ccabc362552d4e0"
+predecessor: "c940128f960a395c9479e6f01cc5522c6e0f2c44a83c32a3684a38b2bbbbaf95"
 secrets:
   - name: nonce
-    value: "a92846fd0ef065abaf27c933cf6efb3d"
+    value: "74f45ea098213c0408ef297eb6040233"
