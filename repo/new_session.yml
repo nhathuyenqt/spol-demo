@@ -1,0 +1,6 @@
+name: "svc-31f19192"
+version: "0.3"
+predecessor: "1fbe30164977ebad6be0a9b2dd303223d3f09e596aa5ea649e047cc397970b9b"
+secrets:
+  - name: nonce
+    value: "0c47a1ef8065ba9c175b2139a5ba1fe7"
