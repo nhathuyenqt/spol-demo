@@ -1,6 +1,6 @@
-name: "svc-951c034b"
+name: "svc-fa74624a"
 version: "0.3"
-predecessor: "4f8275e355b271e491c96714ac6a44176e5b5f22472402b51322b47460a5a7ec"
+predecessor: "87b852a4f3a96d9f1f26354f1d110ec4a6d77ccfe4ec918711f49a6cf97efb49"
 secrets:
   - name: nonce
-    value: "a3cf4445abe3234fa3d7d9917ec2b03d"
+    value: "4997569cb26e31e0dee8f937d4ca7106"
