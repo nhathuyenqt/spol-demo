@@ -1,6 +1,6 @@
-name: "svc-278826ef"
+name: "svc-8c052da3"
 version: "0.3"
-predecessor: "62434facbb84de15630230e4d1a0919dcfb8f9df7fb6fb71e39ea8952ba10781"
+predecessor: "8d37f2bd491e3ee616a25c0a513c954be93abab13585b01588ae71afffdd6878"
 secrets:
   - name: nonce
-    value: "f1ff43d9ab558051c159e31bb9f98b19"
+    value: "96005dfbce6738b742b0d2408c9e2f77"
