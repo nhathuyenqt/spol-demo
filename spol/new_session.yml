@@ -1,0 +1,6 @@
+name: "svc-a7af77be"
+version: "0.3"
+predecessor: "e1958c9c45f976236113467a191bc293a3924769dbe78ece3a2c31cb9b00f5f5"
+secrets:
+  - name: nonce
+    value: "70a7fc1c04ae9e0f6acbe1e4cb937a93"
