@@ -1,7 +1,9 @@
 {
-  "policy": "name: \"svc-ed4369c5\"\nversion: \"0.3\"\npredecessor: \"c940128f960a395c9479e6f01cc5522c6e0f2c44a83c32a3684a38b2bbbbaf95\"\nsecrets:\n  - name: nonce\n    value: \"74f45ea098213c0408ef297eb6040233\"",
-  "signature": {
-    "s3": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgFVmIKomjiVNK0CPMH53VZbUUMR\n3I1UWkt4JhqhBMeG8AAAAPcG9sYXJpcy1wb2xpY3lzAAAAAAAAAAZzaGE1MTIAAABTAAAA\nC3NzaC1lZDI1NTE5AAAAQMSud87FcaywMGmf61QKE3oaI52nSXROYP4Ul0WOHnK4by3BFl\nWlrMJjKOs0PK2AH7S3yyJqBPg0YFALMBqzUgA=\n-----END SSH SIGNATURE-----",
-    "s2": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAguqjozESfvq2VnQZ12Yxt7Wn0wK\nIfx9AKHbr3jF+MEfwAAAAPcG9sYXJpcy1wb2xpY3lzAAAAAAAAAAZzaGE1MTIAAABTAAAA\nC3NzaC1lZDI1NTE5AAAAQEGDL/bjkR+wZ1iIqAmJJIaWxTdv8epa3PGpeO15cEJKaW19Fe\nwJ0BIbAJnyb7LzJamOAscXU36K715QiBKFwAA=\n-----END SSH SIGNATURE-----"
-  }
+  "session": "version: 0.3.12\nname: matrix1\npredecessor: null\nimages:\n- name: redis_image\nservices:\n- name: redis\n  image_name: redis_image\n  mrenclaves:\n  - 32c0dcbbfcfc951fc21c8f611227e50593e5e759c1d659c63575078c35fadb9b\n  command: null\n  pwd: /\n  persistency: None\naccess_policy:\n  read:\n  - ANY\n  update:\n  - |-\n    -----BEGIN CERTIFICATE-----\n    MIIBXjCCAQSgAwIBAgIUGAV0/hTZQmm3tBrs0W+UeRV2u84wCgYIKoZIzj0EAwIw\n    ITEfMB0GA1UEAwwWcmNnZW4gc2VsZiBzaWduZWQgY2VydDAgFw03NTAxMDEwMDAw\n    MDBaGA80MDk2MDEwMTAwMDAwMFowITEfMB0GA1UEAwwWcmNnZW4gc2VsZiBzaWdu\n    ZWQgY2VydDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABF++KnrOQSC0hBNUxocu\n    GhNy9lkZn5ctN4URR/N90R8iNriHftAbmNd3nwea/StmkOi6HdXqaUu9D0G1rSjy\n    GDajGDAWMBQGA1UdEQQNMAuCCXNjb25lIGNsaTAKBggqhkjOPQQDAgNIADBFAiAR\n    Tw2c8mERappEzaujdhg/YrjBADFzDMReW/meFlGs2wIhAJ7KI7ByIsKLNTB5kbe9\n    LP8tdTtqKk7pvwMv4BMuNHFO\n    -----END CERTIFICATE-----\nsecurity:\n  attestation:\n    mode: hardware\n    tolerate:\n    - debug-mode\n    - hyperthreading\n    - outdated-tcb\n    - local-attestation-trust-cas-tcb\n    ignore_advisories: '*'\ncreator: null\n",
+  "signatures": [
+    {
+      "signer": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAURDBaeg7kYFhDeUDcQpy7OhSfPhc5JEs6UyVSdMyvI0=\n-----END PUBLIC KEY-----\n",
+      "signature": "dy52yY1/Io5/rgjQV9NHWHnAHAqJkGTyXw3rQKx46SOTbfFPT1TjFFjARwCkbZ8HnTyv2+itgNxO2AaNusQoAQ=="
+    }
+  ]
 }
