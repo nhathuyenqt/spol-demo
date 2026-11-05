@@ -1,9 +1,0 @@
-{
-  "session": "version: 0.3.12\nname: matrix1\npredecessor: null\nimages:\n- name: redis_image\nservices:\n- name: redis\n  image_name: redis_image\n  mrenclaves:\n  - 32c0dcbbfcfc951fc21c8f611227e50593e5e759c1d659c63575078c35fadb9b\n  command: null\n  pwd: /\n  persistency: None\naccess_policy:\n  read:\n  - ANY\n  update:\n  - |-\n    -----BEGIN CERTIFICATE-----\n    MIIBXjCCAQSgAwIBAgIUGAV0/hTZQmm3tBrs0W+UeRV2u84wCgYIKoZIzj0EAwIw\n    ITEfMB0GA1UEAwwWcmNnZW4gc2VsZiBzaWduZWQgY2VydDAgFw03NTAxMDEwMDAw\n    MDBaGA80MDk2MDEwMTAwMDAwMFowITEfMB0GA1UEAwwWcmNnZW4gc2VsZiBzaWdu\n    ZWQgY2VydDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABF++KnrOQSC0hBNUxocu\n    GhNy9lkZn5ctN4URR/N90R8iNriHftAbmNd3nwea/StmkOi6HdXqaUu9D0G1rSjy\n    GDajGDAWMBQGA1UdEQQNMAuCCXNjb25lIGNsaTAKBggqhkjOPQQDAgNIADBFAiAR\n    Tw2c8mERappEzaujdhg/YrjBADFzDMReW/meFlGs2wIhAJ7KI7ByIsKLNTB5kbe9\n    LP8tdTtqKk7pvwMv4BMuNHFO\n    -----END CERTIFICATE-----\nsecurity:\n  attestation:\n    mode: hardware\n    tolerate:\n    - debug-mode\n    - hyperthreading\n    - outdated-tcb\n    - local-attestation-trust-cas-tcb\n    ignore_advisories: '*'\ncreator: null\n",
-  "signatures": [
-    {
-      "signer": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAURDBaeg7kYFhDeUDcQpy7OhSfPhc5JEs6UyVSdMyvI0=\n-----END PUBLIC KEY-----\n",
-      "signature": "dy52yY1/Io5/rgjQV9NHWHnAHAqJkGTyXw3rQKx46SOTbfFPT1TjFFjARwCkbZ8HnTyv2+itgNxO2AaNusQoAQ=="
-    }
-  ]
-}
